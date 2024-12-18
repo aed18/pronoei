@@ -1,0 +1,64 @@
+/* Fondo general */
+body {
+    background-color: #EAF6F6; /* Celeste muy claro */
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.bg-custom-navbar {
+    background-color: #6C5B7B; /* Morado pastel oscuro */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #C06C84 !important; /* Rosa pastel */
+}
+
+/* Header */
+.bg-custom-header {
+    background-color: #70C1B3; /* Verde agua */
+}
+
+/* Sección Maestras */
+.section-container {
+    background-color: #FFFFFF; /* Blanco */
+    border: 2px solid #6C5B7B; /* Borde morado pastel */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-custom-green {
+    color: #70C1B3; /* Verde suave */
+}
+
+.text-custom-dark {
+    color: #444444; /* Gris oscuro */
+}
+
+/* Botón personalizado */
+.btn-custom {
+    background-color: #6C5B7B; /* Morado pastel oscuro */
+    color: #FFFFFF;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #C06C84; /* Rosa pastel */
+}
+
+/* Footer */
+.bg-custom-footer {
+    background-color: #6C5B7B; /* Morado pastel oscuro */
+    color: #FFFFFF;
+}
+
+/* Imagen */
+.image-container img {
+    border: 3px solid #70C1B3; /* Borde verde */
+    border-radius: 10px;
+    max-width: 90%;
+}
